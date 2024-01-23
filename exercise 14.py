@@ -6,16 +6,6 @@
 #*
 
 for i in range(0, 5, 1):
-    print("*" , end=" ")
-print("\t")
-for i in range(0, 4, 1):
-    print("*" , end=" ")
-print("\t")
-for i in range(0, 3, 1):
-    print("*" , end=" ")
-print("\t")
-for i in range(0, 2, 1):
-    print("*" , end=" ")
-print("\t")
-for i in range(0, 1, 1):
-    print("*" , end=" ")
+    for j in range(0, i+1):
+        print("*" , end=" ")
+    print("\t")
